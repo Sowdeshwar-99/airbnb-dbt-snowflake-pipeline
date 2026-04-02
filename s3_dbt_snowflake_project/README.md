@@ -18,8 +18,8 @@ The pipeline transforms raw data into analytics-ready datasets using a Medallion
 
 ```text
 Source Data (CSV) → AWS S3 → Snowflake (Staging) → Bronze Layer → Silver Layer → Gold Layer
-                                         ↓              ↓            ↓
-                                     Raw Tables    Cleaned Data   Analytics
+                                                         ↓              ↓            ↓
+                                                     Raw Tables    Cleaned Data   Analytics
 ```
 ## Data Pipeline Design
 
