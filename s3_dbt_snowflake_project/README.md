@@ -93,10 +93,12 @@ dbt debug
 dbt run
 dbt snapshot
 dbt test
+dbt build
 ```
-Key Learnings
-Designing scalable and modular data pipelines
-Implementing incremental processing in dbt
-Building config-driven transformations using Jinja
-Applying Medallion architecture and data modelling principles
-Managing historical data with SCD Type 2
+## Key Learnings
+
+- Designing scalable and modular data pipelines
+- Implementing incremental processing in dbt
+- Building config-driven transformations using Jinja
+- Applying Medallion architecture and data modelling principles
+- Managing historical data with SCD Type 2
